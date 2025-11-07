@@ -1,0 +1,14 @@
+i=1;
+while (i<=3) 
+{
+    scan x;
+    scan y;
+    scan z;
+    if (x>y) 
+        if (x>z) print x;
+        else print z;
+    else
+        if (y>z) print y;
+        else print z;
+	i=i+1;
+}

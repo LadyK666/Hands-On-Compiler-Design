@@ -1,0 +1,14 @@
+// test_no_input.txt
+a = 3;
+b = 2;
+print 3 / 2;        // 整除 -> 1
+print 3.0 / 2;      // 浮点 -> 1.500000
+print a / b;        // 3/2 -> 1
+print a + 1.5;      // 4.500000
+
+if (a > b) print a; else print b;
+
+while (a < 6) {
+    a = a + 1;
+}
+print a;            // 6
